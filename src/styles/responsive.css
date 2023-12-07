@@ -1,0 +1,64 @@
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+
+  nav .nav-container {
+    max-width: 100%;
+  }
+
+  header .inner-jumbotron h2 {
+    font-size: 3.5em;
+    margin-block-end: 8px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+
+  nav .nav-content {
+    flex-direction: initial;
+  }
+
+  .predict-container {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+
+  .predict-form {
+    max-width: 600px;
+  }
+
+  header .inner-jumbotron h2 {
+    font-size: 4em;
+    margin-block-end: 8px;
+  }
+
+  header .inner-jumbotron p {
+    font-size: 1.3em;
+  }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media screen and (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+}
