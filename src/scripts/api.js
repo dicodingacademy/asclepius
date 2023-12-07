@@ -1,12 +1,11 @@
-const BASE_URL = 'http://34.87.87.27:3000';
+const BASE_URL = 'YOUR BASE URL';
 
 const ENDPOINT = {
-  predict: `${BASE_URL}/predict`,
+  predict: `YOUR PATH TO ENDPOINT`,
 };
 
 class PredictAPI {
   static async predict(data) {
-    console.log(data.get('image'));
     const response = await fetch(ENDPOINT.predict, {
       method: 'POST',
       body: data,
