@@ -126,27 +126,12 @@ function showPredictionResult(response) {
     </div>
     <div class="prediction-result">
       <div>
-        <div class="result-title">Confidence score:</div>
-        <div>
-          <span>${data.confidenceScore.toFixed(2)}</span>
-          <progress
-            class="confidence-score"
-            value="${data.confidenceScore.toFixed(2)}"
-            max="100"
-          ></progress>
-        </div>
-      </div>
-      <div>
-        <div class="result-title">Class:</div>
+        <div class="result-title">Result:</div>
         <div>${data.result}</div>
       </div>
       <div>
-        <div class="result-title">Examplanation:</div>
-        <div>${data.explanation}</div>
-      </div>
-      <div>
         <div class="result-title">Suggestion:</div>
-        <div>${data.suggestio}</div>
+        <div>${data.suggestion}</div>
       </div>
     </div>
   `;

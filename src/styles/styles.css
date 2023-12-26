@@ -7,15 +7,17 @@
 }
 
 :root {
-  --primary-color: #a476be;
-  --secondary-color: #cbb0da;
+  --primary-color: #5f8670;
+  --secondary-color: #9ec8b9;
 
-  --button-active-color: #b083c9;
+  --button-active-color: #5c8374;
 
-  --progress-value-color: #5b247d;
+  --progress-value-color: #9ec8b9;
 
-  --primary-text-color: #333333;
-  --secondary-text-color: #444444;
+  --primary-text-color: #527853;
+  --secondary-text-color: #112929;
+
+  /* #5F8670, 1B4242, 5C8374, 9EC8B9, 527853, 88AB8E */
 }
 
 body {
@@ -158,7 +160,7 @@ header {
   background-size: cover;
   background-position: center;
 
-  box-shadow: 0 8px 4px 4px var(--secondary-color);
+  box-shadow: 0 8px 4px 4px #9ec8b9;
 }
 
 header .jumbotron {
@@ -288,9 +290,8 @@ main {
 
 #result .confidence-score::-moz-progress-bar,
 #result .confidence-score::-webkit-progress-bar {
-  /* background-color: #33333355; */
-
   background-color: #eee;
+
   border-radius: 2px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
 }
