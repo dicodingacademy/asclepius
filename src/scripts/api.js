@@ -1,7 +1,7 @@
-const BASE_URL = 'https://submissions-mlgc-w6uioljx3q-et.a.run.app';
+const BASE_URL = 'YOUR BASE URL';
 
 const ENDPOINT = {
-  predict: `${BASE_URL}/predict`,
+  predict: `YOUR PATH TO ENDPOINT`,
 };
 
 class PredictAPI {
