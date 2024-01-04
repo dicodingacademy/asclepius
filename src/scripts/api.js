@@ -1,9 +1,8 @@
 // TODO: Silakan sesuaikan BASE URL dari endpoint Anda
 const BASE_URL = 'YOUR BASE URL';
 
-// TODO: Silakan sesuaikan path resource Anda
 const ENDPOINT = {
-  predict: `${BASE_URL}/YOUR PATH`,
+  predict: `${BASE_URL}/predict`,
 };
 
 class PredictAPI {
