@@ -113,6 +113,8 @@ nav .nav-container {
   inset-block-start: 0;
 
   box-shadow: 0 2px 2px 0 #333333aa;
+
+  z-index: 9999;
 }
 
 nav .nav-content {
@@ -323,4 +325,4 @@ main {
   justify-content: space-between;
   gap: 8px;
 }
-/* End of Main */
+/* End of Footer */

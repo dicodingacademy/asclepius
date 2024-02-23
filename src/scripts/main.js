@@ -56,7 +56,7 @@ function dropHandler(event) {
   const files = dataTransfer.files;
 
   const skinImage = files[0];
-  predictFormData.append('image', skinImage, skinImage.name);
+  predictFormData.set('image', skinImage, skinImage.name);
 
   previewFile(skinImage);
 }
@@ -66,7 +66,7 @@ function skinFileInputHandler(event) {
   const files = Array.from(event.target.files);
 
   const skinImage = files[0];
-  predictFormData.append('image', skinImage, skinImage.name);
+  predictFormData.set('image', skinImage, skinImage.name);
 
   previewFile(skinImage);
 }
