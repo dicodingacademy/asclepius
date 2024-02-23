@@ -1,7 +1,7 @@
 {
-  "name": "serta-mulia",
+  "name": "Asclepius",
   "version": "1.0.0",
-  "description": "Serta mulia adalah sistem pemeriksaan kulit secara otomatis",
+  "description": "Asclepius adalah sistem pemeriksaan kulit secara otomatis",
   "scripts": {
     "start": "http-server ."
   },
